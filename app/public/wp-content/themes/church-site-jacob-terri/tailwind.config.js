@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    './**/*.php',
-    './wp-content/themes/church-site-jacob-terri/**/*.php', 
-  ],
+  content: ['./**/*.php', './**/*.html', './js/**/*.js'],
   theme: {
     extend: {},
   },
