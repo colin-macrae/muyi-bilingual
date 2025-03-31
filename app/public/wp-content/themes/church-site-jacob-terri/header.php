@@ -8,8 +8,8 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="site-header">
-    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+<header class="header-container"> 
+    <div><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></div>
     <p><?php bloginfo('description'); ?></p>
     <nav>
         <?php
