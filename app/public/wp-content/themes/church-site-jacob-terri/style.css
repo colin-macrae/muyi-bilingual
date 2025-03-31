@@ -1,0 +1,44 @@
+/*
+Theme Name: church-site-jacob-terri
+Theme URI: https://example.com/your-theme
+Author: Your Name
+Author URI: https://example.com
+Description: A custom theme for the church
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: your-theme-textdomain
+Tags: custom-background, custom-logo, featured-images
+*/
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+}
+
+/* WordPress Alignment Classes */
+.alignwide {
+    width: 100vw;
+    max-width: 100%;
+    margin-left: calc(50% - 50vw);
+}
+
+.alignfull {
+    width: 100vw;
+    max-width: 100%;
+    margin-left: calc(50% - 50vw);
+}
+
+.wp-block-image img {
+    height: auto;
+    max-width: 100%;
+}
