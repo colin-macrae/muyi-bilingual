@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1>Welcome to our announcements page</h1>
+<h1 class="text-[2rem]">Welcome to our announcements page</h1>
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <article>
