@@ -8,19 +8,24 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="header-container"> 
-    <div class="mr-5">
-        <a href="<?php echo home_url(); ?>">Muyi Bilingual Congregation</a>
-        <a href="<?php echo home_url(); ?>">慕義堂雙語崇拜</a>
+<header class="bg-red-300"> 
+    <div class="flex justify-between mx-6">
+        <div class="mr-5">
+            <a href="<?php echo home_url(); ?>">
+                Muyi Bilingual Congregation
+            </a>
+            <a href="<?php echo home_url(); ?>">
+                慕義堂雙語崇拜
+            </a>
+        </div>
+        <p><?php bloginfo('description'); ?></p>
+        <ul class="flex gap-4"> 
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
     </div>
-    <p><?php bloginfo('description'); ?></p>
-    <nav>
-        <?php
-        wp_nav_menu(array(
-            'theme_location' => 'primary'
-        ));
-        ?>
-    </nav>
+    
 </header>
 
 <main class="site-content">

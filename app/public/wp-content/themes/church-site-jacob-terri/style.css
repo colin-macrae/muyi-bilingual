@@ -43,15 +43,12 @@ body {
     max-width: 100%;
 }
 
-.header-container {
+/* .header-container {
     background-color: rgb(201, 201, 201);
     display: flex;
 }
 
 .header-container nav li {
     list-style-type: none;
-}
+} */
 
-.header-container nav {
-    display: flex;
-}
