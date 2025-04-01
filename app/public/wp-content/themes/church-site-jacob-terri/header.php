@@ -9,7 +9,10 @@
 <body <?php body_class(); ?>>
 
 <header class="header-container"> 
-    <div class="mr-5"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></div>
+    <div class="mr-5">
+        <a href="<?php echo home_url(); ?>">Muyi Bilingual Congregation</a>
+        <a href="<?php echo home_url(); ?>">慕義堂雙語崇拜</a>
+    </div>
     <p><?php bloginfo('description'); ?></p>
     <nav>
         <?php
