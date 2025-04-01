@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 
 <header class="bg-red-300"> 
-    <div class="flex justify-between mx-6">
+    <div class="flex justify-between mx-16">
         <div class="mr-5">
             <a href="<?php echo home_url(); ?>">
                 Muyi Bilingual Congregation
@@ -20,9 +20,11 @@
         </div>
         <p><?php bloginfo('description'); ?></p>
         <ul class="flex gap-4"> 
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li>
+                <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>">
+                    Announcements
+                </a>
+            </li>
         </ul>
     </div>
     
