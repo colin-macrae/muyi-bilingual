@@ -8,20 +8,24 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="bg-red-300"> 
-    <div class="flex justify-between mx-16">
+<header class="bg-[#1B365D] text-white"> 
+    <div class="py-4 px-6 flex justify-between items-center">
         <div class="mr-5">
-            <a href="<?php echo home_url(); ?>">
+            <!-- <a href="<?php echo home_url(); ?>" class="text-xl font-bold">
                 Muyi Bilingual Congregation
             </a>
-            <a href="<?php echo home_url(); ?>">
+            <a href="<?php echo home_url(); ?>" class="text-xl font-bold">
                 慕義堂雙語崇拜
+            </a> -->
+            <a href="<?php echo home_url(); ?>" class="text-xl font-bold">
+                <img class="w-40" style="width: 160px !important;" src="<?php echo get_template_directory_uri(); ?>/assets/images/muyi-logo-no-bkrd-white.png" alt="Muyi Bilingual Congregation Logo">
             </a>
+
         </div>
-        <p><?php bloginfo('description'); ?></p>
+        <!-- <p><?php bloginfo('description'); ?></p> -->
         <ul class="flex gap-4"> 
             <li>
-                <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>">
+                <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="hover:text-[#C9A66B]">
                     Announcements
                 </a>
             </li>
