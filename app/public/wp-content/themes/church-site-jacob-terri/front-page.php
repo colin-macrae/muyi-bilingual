@@ -52,39 +52,44 @@
             <p>5pm daily</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section> -->
-        <section class="max-w-5xl mx-auto px-4 py-8 flex flex-col md:flex-row gap-8 text-center md:text-left justify-center">
-            <!-- Column 1: Bilingual Service -->
-            <div class="flex-1">
-                <h2 class="text-2xl font-bold">Bilingual Service</h2>
-                <p class="text-lg">Sunday 4:00-5:30 PM</p>
-                <p class="text-gray-600">(Children's Sunday School included)</p>
-                <h2 class="text-2xl font-bold mt-4">雙語崇拜</h2>
-                <p class="text-lg">週日 16:00-17:30</p>
-                <p class="text-gray-600">（兒童主日學）</p>
-            </div>
+        <section class="max-w-5xl mx-auto px-4 py-8">
+    <div class="mb-8">
+        <h2 class="text-3xl font-bold text-center">Service & Small Group Times | 聚會與小組時間</h2>
+    </div>    
+    <div class="flex flex-col md:flex-row gap-8"> <!-- Changed to column on mobile, row on medium+ -->
+        <!-- Column 1: Bilingual Service -->
+        <div class="md:border-r-2 md:border-gray-300 md:pr-8 pb-8 md:pb-0 border-b-2 md:border-b-0 border-gray-300">
+            <h3 class="text-xl font-semibold mb-2">Bilingual Service</h3>
+            <p class="text-lg">Sunday 4:00-5:30 PM</p>
+            <p class="text-gray-600 mb-4">(Children's Sunday School included)</p>
+            <h3 class="text-xl font-semibold mb-2">雙語崇拜</h3>
+            <p class="text-lg">週日 16:00-17:30</p>
+            <p class="text-gray-600">（兒童主日學）</p>
+        </div>
 
-            <!-- Column 2: English Small Group Bible Studies -->
-            <div class="flex-1">
-                <h3 class="text-xl font-semibold">English Small Group Bible Studies</h3>
-                <ul class="list-none">
-                    <li>Thursday Online: 8:00-9:00 PM</li>
-                    <li>Friday: 10:00-11:30 AM (Room 410)</li>
-                </ul>
-                <h3 class="text-xl font-semibold mt-4">英文查經小組</h3>
-                <ul class="list-none">
-                    <li>週四線上：20:00-21:00</li>
-                    <li>週五：10:00-11:30（410教室）</li>
-                </ul>
-            </div>
+        <!-- Column 2: English Small Group Bible Studies -->
+        <div class="md:border-r-2 md:border-gray-300 md:pr-8 pb-8 md:pb-0 border-b-2 md:border-b-0 border-gray-300">
+            <h3 class="text-xl font-semibold mb-2">English Small Group Bible Studies</h3>
+            <ul class="list-none mb-4">
+                <li>Thursday Online: 8:00-9:00 PM</li>
+                <li>Friday: 10:00-11:30 AM (Room 410)</li>
+            </ul>
+            <h3 class="text-xl font-semibold mb-2">英文查經小組</h3>
+            <ul class="list-none">
+                <li>週四線上：20:00-21:00</li>
+                <li>週五：10:00-11:30（410教室）</li>
+            </ul>
+        </div>
 
-            <!-- Column 3: English Conversation Group -->
-            <div class="flex-1">
-                <h3 class="text-xl font-semibold">English Conversation Group</h3>
-                <p>Thursday 2:30-4:00 PM (5F)</p>
-                <h3 class="text-xl font-semibold mt-4">英文會話小組</h3>
-                <p>週四下午 14:30-16:00（5樓）</p>
-            </div>
-        </section>
+        <!-- Column 3: English Conversation Group -->
+        <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-2">English Conversation Group</h3>
+            <p class="mb-2">Thursday 2:30-4:00 PM (5F)</p>
+            <h3 class="text-xl font-semibold mb-2">英文會話小組</h3>
+            <p>週四下午 14:30-16:00（5樓）</p>
+        </div>
+    </div>
+</section>
 
 
 
@@ -96,14 +101,14 @@
         </section> -->
         <section class="bg-[#A3B899] px-6 py-12 text-center">
             <div class="mb-4">
-                <h2 class="text-3xl font-bold mb-2">About Us | 關於我們</h2>
-                <p class="text-lg text-gray-700 text-center mb-2">Reaching Taiwan for Jesus, Together in English & Chinese</p>
+                <h2 class="text-3xl font-bold mb-1">About Us | 關於我們</h2>
+                <p class="text-lg text-gray-700 text-center mb-1">Reaching Taiwan for Jesus, Together in English & Chinese</p>
                 <p class="text-lg text-gray-700 text-center">用英語和中文一起為耶穌觸及台灣</p>
             </div>
 
             <div class="flex flex-col gap-8 justify-center max-w-[1000px] mx-auto">
                 <div>
-                    <p class="text-gray-800 mt-2 text-center mb-8">
+                    <p class="text-gray-800 mt-2 text-center mb-4">
                         The church's mission is to spread the gospel and equip people to grow in their faith, with a vision for both spiritual depth and numerical growth. Through bilingual ministry, we aim to make the gospel a common knowledge in Taichung—within the church and especially beyond it. This vision is driven by the passionate dedication of the co-founders, Terri Hewitt and Jacob Moore, who have served in Taiwan for over 18 years and are fluent in Mandarin Chinese.
                     </p>
                     <p class="text-gray-800 mt-2 text-center mb-8">

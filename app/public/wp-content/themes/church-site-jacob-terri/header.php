@@ -26,7 +26,7 @@
         <ul class="flex gap-4"> 
             <li>
                 <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="hover:text-[#C9A66B]">
-                    Announcements
+                    <!-- Announcements -->
                 </a>
             </li>
         </ul>
