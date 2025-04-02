@@ -22,6 +22,9 @@
         <p class="mt-4 text-[#F5E9D7]">
           2 Peter 3:18: "But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be glory both now and forevermore. Amen." 
         </p>
+        <p class="mt-4 text-[#F5E9D7]">
+          彼得後書 3:18:「你們卻要在我們主—救主耶穌基督的恩典和知識上長進。願榮耀歸給他，從今直到永遠。阿們！」
+        </p>
       </div>
 
       <!-- Navigation Columns -->
