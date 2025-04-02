@@ -95,23 +95,23 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section> -->
         <section class="bg-[#A3B899] px-6 py-12 text-center">
-    <div class="mb-8">
-        <h2 class="text-3xl font-bold">About Us | 關於我們</h2>
-        <p class="text-lg text-gray-700 text-center">Reaching Taiwan for Jesus, Together in English & Chinese</p>
-        <p class="text-lg text-gray-700 text-center">用英語和中文一起為耶穌觸及台灣</p>
-    </div>
+            <div class="mb-4">
+                <h2 class="text-3xl font-bold mb-2">About Us | 關於我們</h2>
+                <p class="text-lg text-gray-700 text-center mb-2">Reaching Taiwan for Jesus, Together in English & Chinese</p>
+                <p class="text-lg text-gray-700 text-center">用英語和中文一起為耶穌觸及台灣</p>
+            </div>
 
-    <div class="flex flex-col gap-8 justify-center max-w-2xl mx-auto">
-        <div>
-            <p class="text-gray-800 mt-2 text-center">
-                The church's mission is to spread the gospel and equip people to grow in their faith, with a vision for both spiritual depth and numerical growth. Through bilingual ministry, we aim to make the gospel a common knowledge in Taichung—within the church and especially beyond it. This vision is driven by the passionate dedication of the co-founders, Terri Hewitt and Jacob Moore, who have served in Taiwan for over 18 years and are fluent in Mandarin Chinese.
-            </p>
-            <p class="text-gray-800 mt-2 text-center">
-                教會的使命是傳播福音並幫助人們在信仰中成長，並有著同時追求靈命深度與數字增長的異象。藉著雙語事工，我們的目標是讓福音成為台中普及的常識，不僅在教會內，更要在教會外廣泛傳播。這個異象是由創辦人 Terri Hewitt 和 Jacob Moore 共同推動，他們在台灣服事超過18年，並能流利使用中文。
-            </p>
-        </div>
-    </div>
-</section>
+            <div class="flex flex-col gap-8 justify-center max-w-[1000px] mx-auto">
+                <div>
+                    <p class="text-gray-800 mt-2 text-center mb-8">
+                        The church's mission is to spread the gospel and equip people to grow in their faith, with a vision for both spiritual depth and numerical growth. Through bilingual ministry, we aim to make the gospel a common knowledge in Taichung—within the church and especially beyond it. This vision is driven by the passionate dedication of the co-founders, Terri Hewitt and Jacob Moore, who have served in Taiwan for over 18 years and are fluent in Mandarin Chinese.
+                    </p>
+                    <p class="text-gray-800 mt-2 text-center mb-8">
+                        教會的使命是傳播福音並幫助人們在信仰中成長，並有著同時追求靈命深度與數字增長的異象。藉著雙語事工，我們的目標是讓福音成為台中普及的常識，不僅在教會內，更要在教會外廣泛傳播。這個異象是由創辦人 Terri Hewitt 和 Jacob Moore 共同推動，他們在台灣服事超過18年，並能流利使用中文。
+                    </p>
+                </div>
+            </div>
+        </section>
 
 
         
