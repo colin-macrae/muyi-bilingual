@@ -20,7 +20,7 @@
             </a>
         </div>
         <p class="mt-4 text-[#F5E9D7]">
-          Bringing people together through shared passions and community spirit.
+          2 Peter 3:18: "But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be glory both now and forevermore. Amen." 
         </p>
       </div>
 
