@@ -16,7 +16,7 @@
         <!-- Club Name -->
         <div class="flex items-center mb-6">
           
-          <h1 class="font-serif text-3xl md:text-4xl font-bold text-[#1B365D]">Muyi Bilingual Congregation 慕義堂雙語崇拜
+          <h1 class="text-3xl md:text-4xl font-bold text-[#1B365D]">Muyi Bilingual Congregation 慕義堂雙語崇拜
           </h1>
         </div>
         

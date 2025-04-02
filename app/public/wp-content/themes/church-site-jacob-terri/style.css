@@ -18,11 +18,14 @@ Tags: custom-background, custom-logo, featured-images
     box-sizing: border-box;
 }
 
+/* For headers and titles */
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+/* For body text and paragraphs */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* WordPress Alignment Classes */
@@ -42,13 +45,4 @@ body {
     height: auto;
     max-width: 100%;
 }
-
-/* .header-container {
-    background-color: rgb(201, 201, 201);
-    display: flex;
-}
-
-.header-container nav li {
-    list-style-type: none;
-} */
 
