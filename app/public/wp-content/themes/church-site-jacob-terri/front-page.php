@@ -14,9 +14,9 @@
       <!-- Left Column (Text) -->
       <div class="order-1">
         <!-- Club Name -->
-        <div class="flex items-center mb-6">
-          
-          <h1 class="text-3xl md:text-4xl font-bold text-[#1B365D]">Muyi Bilingual Congregation 慕義堂雙語崇拜
+        <div class="flex items-center mb-6">          
+          <h1 class="text-3xl md:text-4xl font-bold text-[#1B365D]">
+            Muyi Bilingual Congregation <span class="text-2xl md:text-3xl">慕義堂雙語崇拜</span>
           </h1>
         </div>
         
@@ -54,7 +54,7 @@
         </section> -->
         <section class="max-w-5xl mx-auto px-4 py-8">
     <div class="mb-8">
-        <h2 class="text-3xl font-bold text-center">Service & Small Group Times | 聚會與小組時間</h2>
+        <h2 class="text-3xl font-bold text-center">Service & Small Group Times | <span class="text-2xl md:text-3xl">聚會與小組時間</span></h2>
     </div>    
     <div class="flex flex-col md:flex-row gap-8"> <!-- Changed to column on mobile, row on medium+ -->
         <!-- Column 1: Bilingual Service -->
@@ -101,7 +101,7 @@
         </section> -->
         <section class="bg-[#A3B899] px-6 py-12 text-center">
             <div class="mb-4">
-                <h2 class="text-3xl font-bold mb-1">About Us | 關於我們</h2>
+                <h2 class="text-3xl font-bold mb-1">About Us | <span class="text-2xl md:text-3xl">關於我們</span></h2>
                 <p class="text-lg text-gray-700 text-center mb-1">Reaching Taiwan for Jesus, Together in English & Chinese</p>
                 <p class="text-lg text-gray-700 text-center">用英語和中文一起為耶穌觸及台灣</p>
             </div>
