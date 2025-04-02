@@ -38,7 +38,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
               </svg>
               <a href="#" class="text-[#F5E9D7] transition duration-300">
-                Pastor Jacob's LINE: 0939510768
+                Pastor Jacob: jacobjoe76@gmail.com | LINE: 0939510768 
               </a>
             </li>
             <li class="flex items-start">
