@@ -47,18 +47,78 @@
 </section>
 
         <!-- Worship services info -->
-        <section class="bg-[#F8F8F8] py-12 text-center">
+        <!-- <section class="bg-[#F8F8F8] py-12 text-center">
             <h2 class="text-2xl">Service Times</h2>
             <p>5pm daily</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section> -->
+        <section class="max-w-5xl mx-auto px-4 py-8 flex flex-col md:flex-row gap-8 text-center md:text-left justify-center">
+            <!-- Column 1: Bilingual Service -->
+            <div class="flex-1">
+                <h2 class="text-2xl font-bold">Bilingual Service</h2>
+                <p class="text-lg">Sunday 4:00-5:30 PM</p>
+                <p class="text-gray-600">(Children's Sunday School included)</p>
+                <h2 class="text-2xl font-bold mt-4">雙語崇拜</h2>
+                <p class="text-lg">週日 16:00-17:30</p>
+                <p class="text-gray-600">（兒童主日學）</p>
+            </div>
+
+            <!-- Column 2: English Small Group Bible Studies -->
+            <div class="flex-1">
+                <h3 class="text-xl font-semibold">English Small Group Bible Studies</h3>
+                <ul class="list-none">
+                    <li>Thursday Online: 8:00-9:00 PM</li>
+                    <li>Friday: 10:00-11:30 AM (Room 410)</li>
+                </ul>
+                <h3 class="text-xl font-semibold mt-4">英文查經小組</h3>
+                <ul class="list-none">
+                    <li>週四線上：20:00-21:00</li>
+                    <li>週五：10:00-11:30（410教室）</li>
+                </ul>
+            </div>
+
+            <!-- Column 3: English Conversation Group -->
+            <div class="flex-1">
+                <h3 class="text-xl font-semibold">English Conversation Group</h3>
+                <p>Thursday 2:30-4:00 PM (5F)</p>
+                <h3 class="text-xl font-semibold mt-4">英文會話小組</h3>
+                <p>週四下午 14:30-16:00（5樓）</p>
+            </div>
         </section>
 
+
+
         <!-- About us -->
-        <section class="bg-[#A3B899] py-12 text-center">
+        <!-- <section class="bg-[#A3B899] py-12 text-center">
             <h2 class="text-2xl">About Us</h2>
             <p>We love the Lord</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section> -->
+        <section class="bg-[#A3B899] max-w-5xl mx-auto px-6 py-12">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold">About Us</h2>
+                <p class="text-lg text-gray-700">Reaching Taiwan for Jesus, Together in English & Chinese</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <!-- Left Column: Text -->
+                <div>
+                    <p class="text-gray-800 mt-2">
+                        The church's mission is to spread the gospel and equip people to grow in their faith, with a vision for both spiritual depth and numerical growth. Through bilingual ministry, we aim to make the gospel a common knowledge in Taichung—within the church and especially beyond it. This vision is driven by the passionate dedication of the co-founders, Terri Hewitt and Jacob Moore, who have served in Taiwan for over 18 years and are fluent in Mandarin Chinese.
+                    </p>
+                    <h3 class="text-xl font-semibold mt-6">關於我們</h3>
+                    <p class="text-gray-800 mt-2">
+                        教會的使命是傳播福音並幫助人們在信仰中成長，並有著同時追求靈命深度與數字增長的異象。藉著雙語事工，我們的目標是讓福音成為台中普及的常識，不僅在教會內，更要在教會外廣泛傳播。這個異象是由創辦人Terri Hewitt 和 Jacob Moore 共同推動，他們在台灣服事超過18年，並能流利使用中文。
+                    </p>
+                </div>
+
+                <!-- Right Column: Image -->
+                <!-- <div>
+                    <img src="your-image-url.jpg" alt="Terri Hewitt & Jacob Moore" class="w-full rounded-lg shadow-lg">
+                </div> -->
+            </div>
         </section>
+
         
         
     </div>    
