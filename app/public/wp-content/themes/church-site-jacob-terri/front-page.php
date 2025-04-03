@@ -21,10 +21,10 @@
         </div>
         
         <!-- Paragraph -->
-        <p class="pt-4 text-lg text-[#1B365D]/90 leading-relaxed">
+        <p class="pt-4  text-xl text-[#1B365D]/90 leading-relaxed">
             Our vision is that the gospel message (with the help of bilingual ministry) will become common knowledge in Taichung because of a large and growing number of those living the Christian life and participating in sharing the message inside and (especially) outside of the church. 
         </p>
-        <p class="pt-2 text-lg text-[#1B365D]/90 leading-relaxed">
+        <p class="pt-2 text-xl text-[#1B365D]/90 leading-relaxed">
             經由雙語事工，福音的訊息將會在台中成為普及的常識，那是因為有眾多, 而且愈來愈多的人活出基督徒生命的樣式，並在教會內，特別是在教會外分享福音。
         </p>
       </div>
@@ -52,11 +52,11 @@
             <p>5pm daily</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section> -->
-        <section class="max-w-5xl mx-auto px-4 pt-24 pb-32">
-    <div class="mb-8">
+        <section class="max-w-5xl mx-auto px-4 pt-24 pb-32 text-center">
+    <div class="mb-12">
         <h2 class="text-3xl font-bold text-center">Service & Small Group Times | <span class="text-2xl md:text-3xl">聚會與小組時間</span></h2>
     </div>    
-    <div class="flex flex-col md:flex-row gap-8"> <!-- Changed to column on mobile, row on medium+ -->
+    <div class="flex flex-col md:flex-row gap-8 text-xl"> <!-- Changed to column on mobile, row on medium+ -->
         <!-- Column 1: Bilingual Service -->
         <div class="md:border-r-2 md:border-gray-300 md:pr-8 pb-8 md:pb-0 border-b-2 md:border-b-0 border-gray-300">
             <h3 class="text-xl font-semibold mb-2">Bilingual Service</h3>
@@ -82,7 +82,7 @@
         </div>
 
         <!-- Column 3: English Conversation Group -->
-        <div class="flex-1">
+        <div class="md:pr-8 pb-8 md:pb-0  ">
             <h3 class="text-xl font-semibold mb-2">English Conversation Group</h3>
             <p class="mb-2">Thursday 2:30-4:00 PM (5F)</p>
             <h3 class="text-xl font-semibold mb-2">英文會話小組</h3>
@@ -101,12 +101,12 @@
         </section> -->
         <section class="bg-[#A3B899] px-12  pt-24 pb-32 text-center">
             <div class="mb-4">
-                <h2 class="text-3xl font-bold mb-1">About Us | <span class="text-2xl md:text-3xl">關於我們</span></h2>
+                <h2 class="text-3xl font-bold mb-12">About Us | <span class="text-2xl md:text-3xl">關於我們</span></h2>
                 <!-- <p class="text-lg text-gray-700 text-center mb-1">Reaching Taiwan for Jesus, Together in English & Chinese</p>
                 <p class="text-lg text-gray-700 text-center">用英語和中文一起為耶穌觸及台灣</p> -->
             </div>
 
-            <div class="flex flex-col gap-8 justify-center max-w-[1000px] mx-auto">
+            <div class="flex flex-col gap-8 justify-center max-w-[1000px] mx-auto text-xl">
                 <div>
                     <p class="text-gray-800 mt-2 text-center mb-4">
                         The church's mission is to spread the gospel and equip people to grow in their faith, with a vision for both spiritual depth and numerical growth. Through bilingual ministry, we aim to make the gospel a common knowledge in Taichung—within the church and especially beyond it. This vision is driven by the passionate dedication of the co-founders, Terri Hewitt and Jacob Moore, who have served in Taiwan for over 18 years and are fluent in Mandarin Chinese.
