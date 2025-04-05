@@ -2,8 +2,10 @@
 <footer class="bg-[#1B365D] text-white py-12 px-4 sm:px-6 lg:px-8">
   <div class="max-w-7xl mx-auto">
     <div class="flex flex-col md:flex-row justify-between gap-8">
+      <!-- Logo Section (kept original font color) -->
       <div class="w-full md:w-1/3">
         <div class="flex items-center">
+          <!-- Updated Club Logo with your palette -->
             <a href="<?php echo home_url(); ?>">
                 <img class="w-40" style="width: 160px !important;" src="<?php echo get_template_directory_uri(); ?>/assets/images/muyi-logo-no-bkrd-white.png" alt="Muyi Bilingual Congregation Logo">
             </a>
@@ -15,12 +17,12 @@
           彼得後書 3:18:「你們卻要在我們主—救主耶穌基督的恩典和知識上長進。願榮耀歸給他，從今直到永遠。阿們！」
         </p>
       </div>
-      
+
+      <!-- Navigation Columns -->
       <div class="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <!-- Contact Column -->
         <div>
-          <h3 class="text-lg font-semibold mb-4 border-b border-[#C9A66B] pb-2 w-max">
-            Contact
-          </h3>
+          <h3 class="text-lg font-semibold mb-4 border-b border-[#C9A66B] pb-2 w-max">Contact</h3>
           <ul class="space-y-2">
             <li class="flex items-start">
               <svg class="w-5 h-5 mr-2 mt-0.5 text-[#C9A66B]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -46,14 +48,17 @@
                 <a href="https://maps.app.goo.gl/xVN8DjnQj1UBSQss9" target="_blank">
                     台中市北區中明路499號
                 </a>
-
               </span>
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+
+    <!-- Bottom/Copyright Section -->
     <div class="border-t border-[#A3B899] mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
       <p class="text-[#F5E9D7] text-sm">
-        &copy; 2025 
+        &copy; 2025
         Muyi Bilingual Congregation 慕義堂雙語崇拜. All rights reserved.
       </p>
       <div class="flex space-x-6 mt-4 md:mt-0">
