@@ -22,7 +22,7 @@
         
         <!-- Paragraph -->
         <p class="pt-4  text-xl text-[#1B365D]/90 leading-relaxed">
-            Our vision is that the gospel message (with the help of bilingual ministry) will become common knowledge in Taichung because of a large and growing number of those living the Christian life and participating in sharing the message inside and (especially) outside of the church. 
+            Our vision is that the gospel message (with the help of bilingual ministry) will become common knowledge in Taichung because of a large and growing number of those living the Christian life and participating in sharing the message inside and (especially) outside of the church.
         </p>
         <p class="pt-2 text-xl text-[#1B365D]/90 leading-relaxed">
             經由雙語事工，福音的訊息將會在台中成為普及的常識，那是因為有眾多, 而且愈來愈多的人活出基督徒生命的樣式，並在教會內，特別是在教會外分享福音。
@@ -117,7 +117,6 @@
                 </div>
             </div>
         </section>
-
 
         
         

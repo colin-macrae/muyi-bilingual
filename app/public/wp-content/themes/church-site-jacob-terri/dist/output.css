@@ -636,13 +636,12 @@ video {
   margin-right: auto;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mb-2 {
@@ -655,10 +654,6 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mr-2 {
@@ -683,14 +678,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .block {
@@ -750,22 +737,6 @@ video {
   width: max-content;
 }
 
-.min-w-16 {
-  min-width: 4rem;
-}
-
-.min-w-32 {
-  min-width: 8rem;
-}
-
-.min-w-\[46\] {
-  min-width: 46;
-}
-
-.min-w-\[200px\] {
-  min-width: 200px;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -780,10 +751,6 @@ video {
 
 .max-w-\[1000px\] {
   max-width: 1000px;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .grow {
@@ -893,11 +860,6 @@ video {
   background-color: rgb(163 184 153 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#C9A66B\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(201 166 107 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[\#F5E9D7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 233 215 / var(--tw-bg-opacity, 1));
@@ -975,14 +937,6 @@ video {
   padding-top: 2rem;
 }
 
-.pb-36 {
-  padding-bottom: 9rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -995,11 +949,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-\[2rem\] {
@@ -1019,11 +968,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1117,15 +1061,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:m-6 {
-    margin: 1.5rem;
-  }
-
-  .sm\:mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
   .sm\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -1135,18 +1070,9 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:p-16 {
-    padding: 4rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .sm\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 }
 

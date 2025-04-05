@@ -20,4 +20,5 @@ function enqueue_tailwind() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_tailwind');
 
+add_theme_support('title-tag');
 ?>
