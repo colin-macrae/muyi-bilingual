@@ -20,48 +20,17 @@ function enqueue_tailwind() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_tailwind');
 
-function custom_scroll_animation_script() {
-    ?>
-    <script>
-    (function() {
-        // Optimized viewport check
-        function isInViewport(element) {
-            const rect = element.getBoundingClientRect();
-            return (
-                rect.top <= (window.innerHeight || document.documentElement.clientHeight) && 
-                rect.bottom >= 0
-            );
-        }
-
-        // Throttled scroll handler
-        function handleScroll() {
-            const elements = document.querySelectorAll('.animate-on-scroll:not(.in-view)');
-            elements.forEach(element => {
-                if (isInViewport(element)) {
-                    element.classList.add('in-view');
-                }
-            });
-        }
-
-        // Add event listener with throttle
-        let ticking = false;
-        window.addEventListener('scroll', function() {
-            if (!ticking) {
-                window.requestAnimationFrame(function() {
-                    handleScroll();
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        });
-
-        // Initial check
-        handleScroll();
-    })();
-    </script>
-    <?php
+function enqueue_theme_scripts() {
+    // Only enqueue ONCE with proper versioning
+    wp_enqueue_script(
+        'theme-scroll-reveal',
+        get_template_directory_uri() . '/assets/js/scroll-reveal.js',
+        array(),
+        filemtime(get_template_directory() . '/assets/js/scroll-reveal.js'), // Uses file modification time
+        true
+    );
 }
-add_action('wp_footer', 'custom_scroll_animation_script');
+add_action('wp_enqueue_scripts', 'enqueue_theme_scripts');
 
 add_theme_support('title-tag');
 ?>
