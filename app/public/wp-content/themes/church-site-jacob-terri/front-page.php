@@ -17,13 +17,11 @@
                         </p>
                     </div>
                     <div class="order-2">
-                        <a href="#" class="block group"> 
                         <div class="aspect-w-4 aspect-h-3 bg-[#F5E9D7] rounded-lg overflow-hidden shadow-xl">
                             <div class="w-full h-full flex items-center justify-center text-[#1B365D] font-bold">
-                                <img src="https://t3.ftcdn.net/jpg/10/33/54/72/360_F_1033547222_sNGzseDtQwYuNwv1w3RDQZamb9FsKsRF.jpg" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/muyi-bilingual-stock-ai-image.png" alt="family singing in church service"/>
                             </div>
-                        </div>
-                        <span class="sr-only">View our members</span>
+                        </div>                        
                         </a>
                     </div>
                 </div>
