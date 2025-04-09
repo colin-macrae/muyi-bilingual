@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function isInViewport(el) {
     const rect = el.getBoundingClientRect();
     return (
-      rect.top <= window.innerHeight * 0.8 &&
-      rect.bottom >= window.innerHeight * 0.2
+      rect.top <= window.innerHeight * 0.99 &&
+      rect.bottom >= window.innerHeight * 0.01
     );
   }
 
