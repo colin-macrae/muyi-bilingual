@@ -1,57 +1,76 @@
-<?php get_header(); ?>
+<?php
+get_header();
+?>
 
-<div class="single-post mx-auto px-4 py-16" style="background-color: #FAF7F2;">
-    <article>
-        <header class="mb-10">
-            <h1 class="text-3xl md:text-4xl font-bold mb-4" style="color: #1E2A38;">
+<main id="primary" class="site-main pb-16 bg-[#FAF7F2]">
+    <article id="post-<?php the_ID(); ?>" <?php post_class('max-w-4xl mx-auto px-4 py-8 md:py-12'); ?>>
+        
+        <!-- Post Header -->
+        <header class="entry-header mb-8">
+
+            <h1 class="entry-title text-3xl md:text-4xl font-bold leading-tight text-gray-900 mb-4">
                 <?php the_title(); ?>
             </h1>
-            
-            <div class="post-meta flex items-center text-sm" style="color: #333333;">
-                <span class="post-date mr-4">
-                    <?php echo get_the_date('F j, Y'); ?>
-                </span>
-                <span class="post-author">
-                    By <?php the_author(); ?>
+
+            <div class="entry-meta">
+                <span class="posted-on">
+                    <?php echo esc_html(get_the_date('F j, Y')); ?>
+                </span>                
+                <span class="byline">
+                    By <span class="author">
+                    <?php 
+                    // Direct author data fetch (a fix since get_the_author() didn't work)
+                    global $post;
+                    $author = get_userdata($post->post_author);
+                    echo esc_html($author ? $author->display_name : 'Admin');
+                    ?>
+                    </span>
                 </span>
             </div>
-            
+
             <?php if (has_post_thumbnail()) : ?>
-                <div class="post-thumbnail mt-6 rounded-lg overflow-hidden">
-                    <?php the_post_thumbnail('large', array('class' => 'w-full h-auto')); ?>
-                </div>
+                <figure class="entry-thumbnail mt-6 rounded-lg overflow-hidden shadow-md">
+                    <?php
+                    the_post_thumbnail('large', array(
+                        'class' => 'w-full h-auto object-cover',
+                        'alt'   => esc_attr(get_the_title())
+                    ));
+                    ?>
+                    <?php if (get_the_post_thumbnail_caption()) : ?>
+                        <figcaption class="text-sm text-center text-gray-500 mt-2">
+                            <?php echo esc_html(get_the_post_thumbnail_caption()); ?>
+                        </figcaption>
+                    <?php endif; ?>
+                </figure>
             <?php endif; ?>
         </header>
-        
-        <div class="post-content max-w-none" style="color: #333333;">
-            <?php the_content(); ?>
-        </div>
-        
-        <footer class="mt-12 pt-6 border-t border-[#C9A46D]">
-            <div class="post-categories mb-4">
-                <?php if (has_category()) : ?>
-                    <span class="text-sm font-medium mr-2" style="color: #1E2A38;">Categories:</span>
-                    <?php the_category(', '); ?>
-                <?php endif; ?>
-            </div>
-            
-            <div class="post-tags">
-                <?php if (has_tag()) : ?>
-                    <span class="text-sm font-medium mr-2" style="color: #1E2A38;">Tags:</span>
-                    <?php the_tags('', ', '); ?>
-                <?php endif; ?>
-            </div>
-        </footer>
-    </article>
-    
-    <div class="post-navigation mt-16 flex justify-between">
-        <div class="previous-post">
-            <?php previous_post_link('%link', '← Previous Announcement'); ?>
-        </div>
-        <div class="next-post">
-            <?php next_post_link('%link', 'Next Announcement →'); ?>
-        </div>
-    </div>
-</div>
 
-<?php get_footer(); ?>
+        <!-- Post Content -->
+        <div class="entry-content prose max-w-none text-gray-800">
+            <?php
+            the_content();
+            
+            wp_link_pages(array(
+                'before' => '<div class="page-links">' . esc_html__('Pages:', 'your-theme'),
+                'after'  => '</div>',
+            ));
+            ?>
+        </div>
+
+        
+    </article>
+
+    <!-- Post Navigation -->
+    <nav class="post-navigation mt-12 max-w-4xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="previous-post">
+                <?php previous_post_link('%link', '← %title'); ?>
+            </div>
+            <div class="next-post">
+                <?php next_post_link('%link', '%title →'); ?>
+            </div>
+        </div>
+    </nav>    
+</main>
+<?php
+get_footer();

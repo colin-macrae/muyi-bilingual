@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="announcements-page mx-auto px-4 py-12" style="background-color: #FAF7F2;">
+<div class="announcements-page mx-auto px-24 py-12 bg-[#FAF7F2]" >
     <h1 class="text-3xl font-bold mb-10" style="color: #1E2A38;">Announcements</h1>
     
     <?php if (have_posts()) : ?>

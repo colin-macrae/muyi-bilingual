@@ -196,3 +196,4 @@ Stack trace:
 [07-Apr-2025 00:37:44 UTC] PHP Warning:  Constant SCRIPT_DEBUG already defined in C:\Users\csmac\Local Sites\church-site-jacob-terri\app\public\wp-config.php on line 106
 [07-Apr-2025 00:37:44 UTC] PHP Warning:  Constant WP_CACHE already defined in C:\Users\csmac\Local Sites\church-site-jacob-terri\app\public\wp-config.php on line 105
 [07-Apr-2025 00:37:44 UTC] PHP Warning:  Constant SCRIPT_DEBUG already defined in C:\Users\csmac\Local Sites\church-site-jacob-terri\app\public\wp-config.php on line 106
+[09-Apr-2025 11:14:51 UTC] PHP Parse error:  Unmatched ')' in C:\Users\csmac\Local Sites\church-site-jacob-terri\app\public\wp-content\themes\church-site-jacob-terri\single.php on line 23
