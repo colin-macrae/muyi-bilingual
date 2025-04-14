@@ -46,7 +46,7 @@
               </svg>
               <span class="text-[#F5E9D7] hover:text-[#C9A66B]">
                 <a href="https://maps.app.goo.gl/xVN8DjnQj1UBSQss9" target="_blank">
-                    台中市北區中明路499號
+                    台中市北區忠明路499號
                 </a>
               </span>
             </li>
