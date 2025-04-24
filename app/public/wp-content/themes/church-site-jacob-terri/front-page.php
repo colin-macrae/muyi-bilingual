@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <div className="w-full text-center sm:mx-16">
-        <section class="bg-[#F5E9D7] py-12 md:py-20">
+        <section class="bg-[#F5E9D7] py-12 md:py-20 min-h-screen">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class=" animate-on-scroll grid md:grid-cols-2 gap-8 md:gap-12 items-center">
                     <div class="order-1">
