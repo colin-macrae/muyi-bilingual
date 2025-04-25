@@ -1,14 +1,14 @@
 module.exports = {
   content: [
-    // Add ALL paths where Tailwind classes might exist
-    './**/*.php', // Root PHP files
-    './wp-content/themes/your-theme/**/*.php', // Theme files
-    './wp-content/plugins/**/*.php', // Plugin files (if needed)
-    './**/*.html',
-    './js/**/*.js',
+    // Target only necessary directories (avoid scanning node_modules)
+    './**/*.html', // Root HTML files
+    './src/**/*.{html,js,php}', // Project-specific files (adjust './src' to your theme folder)
+    './wp-content/themes/your-theme/**/*.php', // Theme files (replace 'your-theme' with actual name)
+    './js/**/*.js', // Custom JS files
   ],
-  // Enable JIT for dynamic class generation
-  mode: 'jit',
-  // Optional: Safelist classes that might break
-  safelist: ['mx-4', 'mx-6', 'mx-8'], // Add others as needed
+  mode: 'jit', // Keep JIT for faster builds
+  safelist: [
+    // Add dynamic classes (e.g., if using WordPress-generated classes)
+    { pattern: /^bg-/, variants: ['hover', 'focus'] }, // Example: all bg-* classes
+  ],
 };

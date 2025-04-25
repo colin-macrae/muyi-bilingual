@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "start": "browser-sync start --config bs-config.js", 
+    "start": "browser-sync start --config bs-config.js",
     "watch": "concurrently \"npm run dev\" \"npm run start\""
   },
   "keywords": [],
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "browserslist": "^4.24.4",
-    "caniuse-lite": "^1.0.30001707",
     "electron-to-chromium": "^1.5.128",
     "escalade": "^3.2.0",
     "fraction.js": "^4.3.7",
